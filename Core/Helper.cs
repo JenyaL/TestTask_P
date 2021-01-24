@@ -6,18 +6,25 @@ namespace TestProject.Core
 {
     public class Helper
     {
-        public string RandomValue(int count)
+        public string RandomValue(int count, string chars)
         {
-            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            var stringChars = new char [count];
-            var random = new Random();
-
-            for (int i = 0; i < stringChars.Length; i++)
+            var finalString = "";
+            if (chars != finalString)
             {
-                stringChars [i] = chars [random.Next(chars.Length)];
-            }
+                var stringChars = new char [count];
+                var random = new Random();
 
-            var finalString = new String(stringChars);
+                for (int i = 0; i < stringChars.Length; i++)
+                {
+                    stringChars [i] = chars [random.Next(chars.Length)];
+                }
+
+                finalString = new String(stringChars);
+            }
+            else
+            {
+                finalString = chars;
+            }
             return finalString;
         }
     }

@@ -1,14 +1,16 @@
 ﻿using Newtonsoft.Json.Linq;
-using TestProject.Core;
 
 namespace TestProject.Fixtures
 {
-    public class Users
+    public static class Users
     {
-        public static JObject user = JObject.Parse(@"{
+       public static JObject user = JObject.Parse(@"{
         'name' : 'TestUser',
         'password' : 'uSeR$t1e2sT',
-        'email' : 'qwerty_test@gmail.com'
+        'email' : 'qwerty_test@gmail.com',
+        'charsData' : 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
+        'charsDataException': '<>',
+        'emailDataCharacters': '-_.'
         }");
     }
 }

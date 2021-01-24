@@ -11,10 +11,17 @@ namespace TestProject.Core
             IWebElement firstResult = wait.Until(e => e.FindElement(selector));
         }
 
-        public bool ElementDisplayed(By selector, int seconds = 10)
+        public bool ElementDisplayed(By selector)
         {
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(seconds));
-            return wait.Until(webDriver => webDriver.FindElement(selector).Displayed);
+            try
+            {
+                driver.FindElement(selector);
+                return true;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public void ClearAndFill(By selector, string text)
@@ -28,6 +35,13 @@ namespace TestProject.Core
         {
             var element = driver.FindElement(selector);
             element.Click();
+        }
+        
+        public string GetText(By selector, int seconds = 10)
+        {
+            ExplicitWait(selector, seconds);
+            string text = driver.FindElement(selector).Text;
+            return text;
         }
     }
 }

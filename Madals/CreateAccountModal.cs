@@ -13,11 +13,16 @@ namespace TestProject.Madals
         //Methods
         private WebdriverCore webDriver = new WebdriverCore();
 
-        [AllureStep("[Accept] button is displayed")]
+        [AllureStep("Check [Accept] button is displayed")]
         public void AcceptButtonIsDisplayed(bool state)
         {
-            webDriver.ExplicitWait(acceptButton);
-            bool ActualResult = webDriver.ElementDisplayed(acceptButton);
+            bool ActualResult;
+            if (state)
+            {
+                webDriver.ExplicitWait(acceptButton);
+            }
+
+            ActualResult = webDriver.ElementDisplayed(acceptButton);
             Assert.AreEqual(ActualResult, state, "[Accept] button is displayed");
         }
     }
