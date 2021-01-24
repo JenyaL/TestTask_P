@@ -1,5 +1,5 @@
 # TestTask_P
-`.NET 4` `NUnit` `Allure` `Selenium`
+`.NET 5` `NUnit` `Allure` `Selenium`
 
 This App was created in Microsoft Visual Studio, I recommend to use this IDE for running tests locally.
 
