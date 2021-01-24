@@ -1,0 +1,76 @@
+{
+  "uuid": "ca092739-11c8-4890-94d8-ed8f8c7b9a54-tc-0-1000",
+  "name": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [password] (spaces)",
+  "children": [
+    "e10eeef0-25fc-4736-a0c1-66707b6e0b5b-tr-0-1014"
+  ],
+  "befores": [
+    {
+      "name": "AllureConfig",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611502510299,
+      "stop": 1611502510299
+    },
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611502510299,
+      "stop": 1611502510299
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTests",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611502510299,
+      "stop": 1611502510299
+    },
+    {
+      "name": "SetEnvironment",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611502510299,
+      "stop": 1611502510299
+    }
+  ],
+  "links": [],
+  "start": 1611502504211,
+  "stop": 1611502510311
+}

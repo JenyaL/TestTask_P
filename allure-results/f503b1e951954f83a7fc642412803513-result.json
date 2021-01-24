@@ -1,0 +1,221 @@
+{
+  "uuid": "9ba8bf6c-1fb7-4929-8b62-385bea01dc8d-tr-0-1020",
+  "historyId": "TestProject.Tests.RegisterSpec.Login user into the system with a valid [password] (6 characters)",
+  "fullName": "TestProject.Tests.RegisterSpec.Login user into the system with a valid [password] (6 characters)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-49RLCDI"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test5"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "owner",
+      "value": "Evgeniy Lunyov"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "feature",
+      "value": "Register page"
+    }
+  ],
+  "links": [],
+  "name": "Login user into the system with a valid [password] (6 characters)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Password consists of (6 characters}\n",
+  "steps": [
+    {
+      "name": "Login user into the system with a valid [password] (6 characters)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check the register form is visible",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502547739,
+          "stop": 1611502547790
+        },
+        {
+          "name": "Fill in the username field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502547790,
+          "stop": 1611502548069
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548069,
+          "stop": 1611502548199
+        },
+        {
+          "name": "Check the [Password] field is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548199,
+          "stop": 1611502548219
+        },
+        {
+          "name": "Fill in the password field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548219,
+          "stop": 1611502548325
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548325,
+          "stop": 1611502548418
+        },
+        {
+          "name": "Check the error message",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548418,
+          "stop": 1611502548439
+        },
+        {
+          "name": "Check the [Password] field is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548439,
+          "stop": 1611502548445
+        },
+        {
+          "name": "Check the [Email] field is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502548445,
+          "stop": 1611502548456
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "73763237994446408e0fb8038872e29f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611502540741,
+      "stop": 1611502548737
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "6"
+    },
+    {
+      "name": "Param #1",
+      "value": "charsData"
+    }
+  ],
+  "start": 1611502540741,
+  "stop": 1611502548737
+}

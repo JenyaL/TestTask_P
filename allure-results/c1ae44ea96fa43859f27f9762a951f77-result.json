@@ -1,0 +1,167 @@
+{
+  "uuid": "047ad28a-0790-4054-9ccc-0333da270070-tr-0-1005",
+  "historyId": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (31 characters)",
+  "fullName": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (31 characters)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-49RLCDI"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "owner",
+      "value": "Evgeniy Lunyov"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "feature",
+      "value": "Register page"
+    }
+  ],
+  "links": [
+    {
+      "name": "№ BUG - 11111",
+      "url": "https://",
+      "type": "issue"
+    }
+  ],
+  "name": "Login user into the system with an invalid [user name] (31 characters)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "User name consists of 31 characters\n",
+  "steps": [
+    {
+      "name": "Login user into the system with an invalid [user name] (31 characters)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check the register form is visible",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502443357,
+          "stop": 1611502443409
+        },
+        {
+          "name": "Fill in the username field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502443409,
+          "stop": 1611502443812
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502443812,
+          "stop": 1611502443898
+        },
+        {
+          "name": "Check the error message",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502443898,
+          "stop": 1611502443945
+        },
+        {
+          "name": "Check the [Password] field is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502443945,
+          "stop": 1611502443957
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "850236051cb148e5bc3a41673d6f014e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611502438539,
+      "stop": 1611502444266
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "31"
+    },
+    {
+      "name": "Param #1",
+      "value": "charsData"
+    }
+  ],
+  "start": 1611502438539,
+  "stop": 1611502444266
+}

@@ -1,0 +1,221 @@
+{
+  "uuid": "faa16d34-9a89-4bfb-ac29-eea9806b377b-tr-0-1032",
+  "historyId": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [email] (spaces IN the email's domain)",
+  "fullName": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [email] (spaces IN the email's domain)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-49RLCDI"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test6"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "owner",
+      "value": "Evgeniy Lunyov"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "feature",
+      "value": "Register page"
+    }
+  ],
+  "links": [],
+  "name": "Login user into the system with an invalid [email] (spaces IN the email's domain)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Spaces IN the email's domain\n",
+  "steps": [
+    {
+      "name": "Login user into the system with an invalid [email] (spaces IN the email's domain)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check the register form is visible",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502628572,
+          "stop": 1611502628613
+        },
+        {
+          "name": "Fill in the username field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502628613,
+          "stop": 1611502628854
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502628854,
+          "stop": 1611502628992
+        },
+        {
+          "name": "Fill in the password field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502628992,
+          "stop": 1611502629166
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502629166,
+          "stop": 1611502629247
+        },
+        {
+          "name": "Fill in the email field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502629247,
+          "stop": 1611502629456
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502629456,
+          "stop": 1611502629557
+        },
+        {
+          "name": "Check the error message",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502629557,
+          "stop": 1611502629606
+        },
+        {
+          "name": "Check [Accept] button is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502629606,
+          "stop": 1611502629626
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2a29935428a6429c82e27d982e144a39-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611502623681,
+      "stop": 1611502630349
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "5"
+    },
+    {
+      "name": "Param #1",
+      "value": "emailSpacesDomain"
+    }
+  ],
+  "start": 1611502623681,
+  "stop": 1611502630349
+}

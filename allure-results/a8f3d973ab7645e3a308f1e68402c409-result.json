@@ -1,0 +1,167 @@
+{
+  "uuid": "3dcbb00f-1cb3-4dda-9e51-395d41393c4b-tr-0-1006",
+  "historyId": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (not accepted characters)",
+  "fullName": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (not accepted characters)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-49RLCDI"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "owner",
+      "value": "Evgeniy Lunyov"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "feature",
+      "value": "Register page"
+    }
+  ],
+  "links": [
+    {
+      "name": "№ BUG - 11111",
+      "url": "https://",
+      "type": "issue"
+    }
+  ],
+  "name": "Login user into the system with an invalid [user name] (not accepted characters)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "User name consists of not accepted characters\n",
+  "steps": [
+    {
+      "name": "Login user into the system with an invalid [user name] (not accepted characters)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check the register form is visible",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502451200,
+          "stop": 1611502451263
+        },
+        {
+          "name": "Fill in the username field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502451263,
+          "stop": 1611502451412
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502451412,
+          "stop": 1611502451505
+        },
+        {
+          "name": "Check the error message",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502451505,
+          "stop": 1611502451555
+        },
+        {
+          "name": "Check the [Password] field is displayed",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502451555,
+          "stop": 1611502451571
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ae3c85214767436893de65f173a4bd28-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611502444280,
+      "stop": 1611502451875
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "4"
+    },
+    {
+      "name": "Param #1",
+      "value": "charsDataException"
+    }
+  ],
+  "start": 1611502444280,
+  "stop": 1611502451876
+}

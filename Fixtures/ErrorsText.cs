@@ -10,8 +10,9 @@ namespace TestProject.Fixtures
         'userNameError' : 'Use 3-30 letters and numbers.',
         'passwordError': 'Use 6-40 symbols, except spaces, <, >,',
         'reqFieldError': 'Field is required.',
-        'emailError': 'Invalid email address.',
-        'emailUsed': 'There is already an account registered to this email address.'
+        'invalidEmailError': 'Invalid email address.',
+        'emailUsed': 'There is already an account registered to this email address.',
+        'emailLong': 'Invalid email address. Please verify your email address and try again.'
         }");
     }
 }

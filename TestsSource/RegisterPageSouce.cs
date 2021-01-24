@@ -16,8 +16,9 @@ namespace TestProject.TestsSource
         string userNameError = (string)ErrorsText.errorText ["userNameError"];
         string passwordError = (string)ErrorsText.errorText ["passwordError"];
         string reqFieldError = (string)ErrorsText.errorText ["reqFieldError"];
-        string emailError = (string)ErrorsText.errorText ["emailError"];
+        string invalidEmailError = (string)ErrorsText.errorText ["invalidEmailError"];
         string emailUsed = (string)ErrorsText.errorText ["emailUsed"];
+        string emailLong = (string)ErrorsText.errorText ["emailLong"];
 
         public string UserNameTestData(int a, string b)
         {
@@ -105,6 +106,28 @@ namespace TestProject.TestsSource
                 case "emailUsed":
                     email = $"{helper.RandomValue(a, charsData)}@gmail.com";
                     break;
+                case "domainWithoutDots":
+                    email = $"{helper.RandomValue(a, charsData)}@gmailcom";
+                    break;
+                case "email":
+                case "emailLong":
+                    email = $"{helper.RandomValue(a, charsData)}@gmail.com";
+                    break;
+                case "domainWithout@":
+                    email = $"{helper.RandomValue(a, charsData)}gmail.com";
+                    break;
+                case "emailSpacesName":
+                    email = $"{helper.RandomValue(a, charsData)} qwe@gmail.com";
+                    break;
+                case "emailSpacesDomain":
+                    email = $"{helper.RandomValue(a, charsData)}@{helper.RandomValue(a, charsData)} asd.com";
+                    break;
+                case "emailWithoutName":
+                    email = $"@{helper.RandomValue(a, charsData)}.com";
+                    break;
+                case "emailWithoutDomain":
+                    email = $"{helper.RandomValue(a, charsData)}@";
+                    break;
                 default:
                     email = helper.RandomValue(a, b);
                     break;
@@ -119,13 +142,20 @@ namespace TestProject.TestsSource
             switch (b)
             {
                 case "      ":
-                    errorText = emailError;
-                    break;
-                case "emailError":
-                    errorText = emailError;
+                case "invalidEmailError":
+                case "domainWithoutDots":
+                case "domainWithout@":
+                case "emailSpacesName":
+                case "emailSpacesDomain":
+                case "emailWithoutName":
+                case "emailWithoutDomain":
+                    errorText = invalidEmailError;
                     break;
                 case "emailUsed":
                     errorText = emailUsed;
+                    break;
+                case "emailLong":
+                    errorText = emailLong;
                     break;
                 default:
                     errorText = reqFieldError;

@@ -1,0 +1,3 @@
+User name = TestUser
+Password = uSeR$t1e2sT
+Email = C@gmail.com

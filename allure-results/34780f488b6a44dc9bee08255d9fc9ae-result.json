@@ -1,0 +1,158 @@
+{
+  "uuid": "ad87c634-fc5d-42be-8ed3-9685a7b96741-tr-0-1003",
+  "historyId": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (spaces)",
+  "fullName": "TestProject.Tests.RegisterSpec.Login user into the system with an invalid [user name] (spaces)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-49RLCDI"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.Tests.RegisterSpec"
+    },
+    {
+      "name": "owner",
+      "value": "Evgeniy Lunyov"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "feature",
+      "value": "Register page"
+    }
+  ],
+  "links": [
+    {
+      "name": "№ BUG - 11111",
+      "url": "https://",
+      "type": "issue"
+    }
+  ],
+  "name": "Login user into the system with an invalid [user name] (spaces)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-qa-entity='form.errorMessage.label']\"}\n  (Session info: chrome=88.0.4324.104)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at TestProject.Core.WebdriverCore.ExplicitWait(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 11\r\n   at TestProject.Core.WebdriverCore.GetText(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 43\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_o(String expectedText, Boolean state) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Pages\\RegisterPage.cs:line 70\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_w_0(Object[] )\r\n   at TestProject.Pages.RegisterPage.CheckErrorMessage(String expectedText, Boolean state)\r\n   at TestProject.Tests.RegisterSpec.Test2(Int32 a, String b) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Tests\\RegisterSpec.cs:line 59\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at TestProject.Core.WebdriverCore.<>c__DisplayClass0_0.<ExplicitWait>b__0(IWebDriver e) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 11\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "#BUG - User name consists of three space\n",
+  "steps": [
+    {
+      "name": "Login user into the system with an invalid [user name] (spaces)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-qa-entity='form.errorMessage.label']\"}\n  (Session info: chrome=88.0.4324.104)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at TestProject.Core.WebdriverCore.ExplicitWait(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 11\r\n   at TestProject.Core.WebdriverCore.GetText(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 43\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_o(String expectedText, Boolean state) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Pages\\RegisterPage.cs:line 70\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_w_0(Object[] )\r\n   at TestProject.Pages.RegisterPage.CheckErrorMessage(String expectedText, Boolean state)\r\n   at TestProject.Tests.RegisterSpec.Test2(Int32 a, String b) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Tests\\RegisterSpec.cs:line 59\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at TestProject.Core.WebdriverCore.<>c__DisplayClass0_0.<ExplicitWait>b__0(IWebDriver e) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 11\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check the register form is visible",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502420058,
+          "stop": 1611502420118
+        },
+        {
+          "name": "Fill in the username field",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502420118,
+          "stop": 1611502420287
+        },
+        {
+          "name": "Click the [Next] button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502420287,
+          "stop": 1611502420475
+        },
+        {
+          "name": "Check the error message",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 10 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at TestProject.Core.WebdriverCore.ExplicitWait(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 11\r\n   at TestProject.Core.WebdriverCore.GetText(By selector, Int32 seconds) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Core\\WebdriverCore.cs:line 43\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_o(String expectedText, Boolean state) in C:\\Users\\lunyo\\source\\repos\\TestProject\\Pages\\RegisterPage.cs:line 70\r\n   at TestProject.Pages.RegisterPage.__a$_around_CheckErrorMessage_100663327_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1611502420475,
+          "stop": 1611502430770
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2c0ca705fd6040969c3cc690a37189dd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611502412976,
+      "stop": 1611502431033
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "4"
+    },
+    {
+      "name": "Param #1",
+      "value": " "
+    }
+  ],
+  "start": 1611502412976,
+  "stop": 1611502431035
+}

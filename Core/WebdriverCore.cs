@@ -26,6 +26,7 @@ namespace TestProject.Core
 
         public void ClearAndFill(By selector, string text)
         {
+            ExplicitWait(selector);
             var element = driver.FindElement(selector);
             element.Clear();
             element.SendKeys(text);

@@ -20,7 +20,7 @@ namespace TestProject.Pages
         //Methods
         private WebdriverCore webDriver = new WebdriverCore();
 
-        [AllureStep("Check register form is visible")]
+        [AllureStep("Check the register form is visible")]
         public void RegisterFormIsVisible()
         {
             webDriver.ExplicitWait(registerForm);
@@ -35,7 +35,7 @@ namespace TestProject.Pages
             webDriver.ClearAndFill(userNameField, userName);
         }
 
-        [AllureStep("Click [Next] button")]
+        [AllureStep("Click the [Next] button")] 
         public void ClickNextButton()
         {
             webDriver.Click(nextButton);
@@ -55,30 +55,30 @@ namespace TestProject.Pages
             webDriver.ClearAndFill(emailField, email);
         }
 
-        [AllureStep("Check [Password] field is displayed")]
+        [AllureStep("Check the [Password] field is displayed")]
         public void PasswordFieldIsDisplayed(bool state)
         {
             bool actualResult = webDriver.ElementDisplayed(passwordField);
-            Assert.AreEqual(actualResult, state, "Check [Password] field is displayed");
+            Assert.AreEqual(actualResult, state, "Check the [Password] field is displayed");
         }
 
-        [AllureStep("Check error message")]
+        [AllureStep("Check the error message")]
         public void CheckErrorMessage(string expectedText, bool state = true)
         {
             if (state)
             {
                 string actualText = webDriver.GetText(errorMessage);
-                Assert.AreEqual(actualText, expectedText, "Check error text");
+                Assert.AreEqual(actualText, expectedText, "Check the error text");
             }
             bool actualResult = webDriver.ElementDisplayed(errorMessage);
-            Assert.AreEqual(actualResult, state, "Check [Error message] is displayed");
+            Assert.AreEqual(actualResult, state, "Check the [Error message] is displayed");
         }
 
-        [AllureStep("Check [Email] field is displayed")]
+        [AllureStep("Check the [Email] field is displayed")]
         public void emailFieldIsDisplayed(bool state)
         {
             bool actualResult = webDriver.ElementDisplayed(emailField);
-            Assert.AreEqual(actualResult, state, "Check [Email] field is displayed");
+            Assert.AreEqual(actualResult, state, "Check the [Email] field is displayed");
         }
     }
 }
