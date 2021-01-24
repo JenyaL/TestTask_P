@@ -351,4 +351,4 @@ MigrationBackup/
 
 # Ignore Allure report files
 /allure-report/
-#/allure-results/
+/allure-results/
