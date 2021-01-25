@@ -22,8 +22,9 @@ To install Allure, download and install Scoop and then execute in the Powershell
 scoop install allure
 
 ```
+* move `allureConfig.json` file from the root folder to `...\bin\Debug\net5.0`
 
-###To run test cases locally
+##To run test cases locally
  
 1) Open project in Microsoft Visual Studio
 2) Open Test Explorer
@@ -31,7 +32,7 @@ scoop install allure
 4) Click on the "Run" button
  
  
-###Generate allure report
+##Generate allure report
  
 1) Open terminal in the project start folder 
 2) Use the following scripts one by one:
