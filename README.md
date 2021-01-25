@@ -16,7 +16,7 @@ This App was created in Microsoft Visual Studio, I recommend to use this IDE for
 * Selenium.WebDriver.ChromeDriver (The version must match the version of your Chrome browser)
 3) install allure-report ^2.13.8 - version 
 
-For Windows, Allure is available from the Scoop commandline-installer.
+For Windows, [Allure](https://docs.qameta.io/allure/) is available from the Scoop commandline-installer.
 To install Allure, download and install Scoop and then execute in the Powershell: 
 ```
 scoop install allure
@@ -24,9 +24,9 @@ scoop install allure
 ```
 * move `allureConfig.json` file from the root folder project to `(project) \bin\Debug\net5.0`
 
-path example `TestTask_P\bin\Debug\net5.0\allureConfig.json`
+> path example `TestTask_P\bin\Debug\net5.0\allureConfig.json`
 
-##To run test cases locally
+## To run test cases locally
  
 1) Open project in Microsoft Visual Studio
 2) Open Test Explorer
@@ -34,7 +34,7 @@ path example `TestTask_P\bin\Debug\net5.0\allureConfig.json`
 4) Click on the "Run" button
  
  
-##Generate allure report
+## Generate allure report
  
 1) Open terminal in the project start folder 
 2) Use the following scripts one by one:
