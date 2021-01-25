@@ -22,9 +22,9 @@ To install Allure, download and install Scoop and then execute in the Powershell
 scoop install allure
 
 ```
-* move `allureConfig.json` file from the root folder project to `(project) \bin\Debug\net5.0`
+* move `allureConfig.json` file from the root folder project to `(..\project)\bin\Debug\net5.0`
 
-> path example `TestTask_P\bin\Debug\net5.0\allureConfig.json`
+> path example `C:\TestTask_P\bin\Debug\net5.0\allureConfig.json`
 
 ## To run test cases locally
  
